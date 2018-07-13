@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+
+"name": "SFDCSearch Extension",
+"description": "This extension allows for quick searching of SFDCSearch.",
+"version": "0.1",
+
+	"browser_action": {
+	"default_popup": "popup.html"
+	},
+	"background":{
+	"scripts": ["popup.js"]
+	},
+	"permissions": ["tabs"]
+}
